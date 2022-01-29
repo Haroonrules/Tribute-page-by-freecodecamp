@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Lobster&family=Outfit:wght@300;400;600&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Dongle', sans-serif;
+  font-size: 3rem;
+  padding: 3rem;
+  color: white;
+  background-color: #100c08 ;
+}
+h1,
+h2,
+h3,
+h4,
+.more__info {
+  font-family: 'Outfit', sans-serif;
+}
+blockquote {
+  text-align: center;
+}
+hr {
+  width: 30%;
+  border: 1px solid #003366;
+}
+.tribute__quotes {
+  list-style-type: disc;
+  padding-left: 10rem;
+}
+#main {
+  background-color: #0f0f0f;
+  padding: 2rem;
+  border-radius: 10px;
+  font-family: 'Dongle', sans-serif;
+  font-size: 3rem;
+}
+#image-div {
+    text-align: center;
+}
+.title__container {
+  text-align: center;
+}
+.image__text__container {
+  background-color: #362222;
+}
+#image {
+  max-width: 100%;
+  border-radius: 2%;
+}
+.tribute__intro {
+  margin-bottom: .5rem;
+}
+#tribute-link {
+  text-decoration: none;
+  margin-left: 1.5rem;
+}
+#tribute-link:hover {
+  color: orange;
+}
+.more__info {
+  font-size: 3rem;
+  font-weight: 700;
+}
+.text__bio, 
+.text__personality{
+  text-indent: 4rem;
+}
+.quotes {
+  font-size: 5rem;
+}
+.quote__text {
+  margin: 0;
+}
+@media screen and (max-width: 600px) {
+  #main {
+    font-size: 3rem;
+  }
+  .text__bio,
+  .text__personality {
+    text-indent: 1.3rem;
+  }
+  .more__info {
+    font-size: 3.2rem;
+  }
+  .tribute__quotes {
+    padding-left: 2rem;
+  }
+  .quotes {
+    font-size: 4rem;
+  }
+  #tribute-link {
+    margin-left: 0.5rem;
+  }
+}
+
